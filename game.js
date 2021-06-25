@@ -118,7 +118,7 @@ scene("game", ({ level, score }) => {
         timer = 0;
         isBig = false;
       },
-      biggify() {
+      biggify(time) {
         this.scale = vec2(2);
         timer = time;
         isBig = true;
